@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unlock Your Tech Potential: Free Python Webinar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <!-- Loader Animation -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+  <div class="container">
+
+    <!-- HERO SECTION -->
+    <section class="hero parallax" style="
+    background: linear-gradient(rgba(20,34,75,0.56), rgba(36,54,153,0.52)),
+      url('images/bg-hero.jpeg') 
+      center/cover no-repeat fixed;
+    padding-top: 48px; padding-bottom: 48px;
+    color: #fff; border-radius: 8px; margin-bottom: 24px;
+  ">
+  
+    <h1>Unlock Your Tech Potential: Free Python & Automation Webinar</h1>
+    <img src="images/instructor-photo.png" alt="Instructor Photo: [Your Name]" class="hero-img"/>
+    <h2>Real Success Stories • Hands-On Demo • Career Growth <br>Learn from an MNC Banking & IT Expert</h2>
+    <button id="registerBtn">Register Free Now</button>
+    <div>Date: Nov 9th, 2025 | Time: 6:00–7:30 PM IST</div>
+    <div class="sub-info">7 Years Experience • Global MNCs • 100+ Learners Impacted</div>
+  </section>
+  
+
+    <div class="counter">
+      <span id="count">0</span> people registered!
+    </div>
+
+    <!-- WHAT YOU'LL LEARN -->
+    <section>
+      <h3>What You'll Learn</h3>
+      <ul>
+        <li>Python basics every professional must know</li>
+        <li>Automation tools: Selenium, Django, REST API, Power Automate, MSSQL</li>
+        <li>How to move from entry-level to high-paying roles</li>
+        <li>Live coding demo and interactive Q&A</li>
+      </ul>
+    </section>
+
+    <!-- INSTRUCTOR PROFILE -->
+    <section class="profile">
+      <h3>About Your Instructor</h3>
+      <strong>Name:</strong> [Your Name] <br>
+      <strong>Title:</strong> Python & Automation Specialist
+      <p>Started career in 2018 at ₹11,000/month salary; now MNC consultant, developer & mentor with 7 years’ experience in banking and IT.<br>
+      <b>Skills:</b> Selenium automation, desktop/web apps, Django web dev, REST APIs, Power Automate, MSSQL database.</p>
+      <ul>
+        <li>2018 – Entry-level Developer</li>
+        <li>2020 – Automation Engineer</li>
+        <li>2022 – Web Dev & API Integration</li>
+        <li>2023 – Advanced Power Automate</li>
+      </ul>
+    </section>
+
+    <!-- SUCCESS STORIES -->
+    <section class="testimonials">
+      <h3>Success Stories</h3>
+      <blockquote>
+        “I started at ₹11k/month. Now I help banks automate thousands of processes! <br>
+        Alumni say our 90-min webinar taught them more practical Python than a month of online courses.”
+      </blockquote>
+    </section>
+    
+    <!-- AGENDA TABLE -->
+    <section class="agenda">
+      <h3>Webinar Agenda</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Segment</th><th>Duration</th><th>What You'll Gain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Instructor Intro & Story</td><td>10 min</td><td>Real strategies from the field</td></tr>
+          <tr><td>Python Basics (Demo)</td><td>30 min</td><td>Hands-on coding guidance</td></tr>
+          <tr><td>Automation Tools</td><td>20 min</td><td>Career-focused case studies</td></tr>
+          <tr><td>Interactive Q&A</td><td>20 min</td><td>Your doubts and questions answered</td></tr>
+          <tr><td>Career Success Insights</td><td>10 min</td><td>High-pay, new opportunities</td></tr>
+          <tr><td>Recap & Action Steps</td><td>10 min</td><td>Join community, get resources</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- REGISTRATION FORM -->
+    <section class="form-section">
+      <h3>Register Now</h3>
+      <div id="formError"></div>
+      <form id="registerForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Your WhatsApp (optional)">
+        <button type="submit">Reserve Your Free Spot!</button>
+      </form>
+      <div class="privacy">By registering, you agree to receive event updates. Opt-out anytime.</div>
+      <div style="text-align:center; margin-top:18px;">
+        <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20VDS%20Academy!%20I%20want%20more%20info%20about%20the%20Python%20webinar." target="_blank"
+           class="whatsapp-btn">
+          <span style="margin-right:8px;">&#128172;</span>Chat on WhatsApp
+        </a>
+      </div>
+      <div style="text-align:center; margin-top:16px;">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://your-landing-page.com" target="_blank" title="Share on Facebook">Facebook</a> &nbsp;|&nbsp;
+        <a href="https://twitter.com/intent/tweet?url=https://your-landing-page.com&text=Join%20the%20free%20Python%20webinar!" target="_blank" title="Share on Twitter">Twitter</a> &nbsp;|&nbsp;
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://your-landing-page.com" target="_blank" title="Share on LinkedIn">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast">Registration successful! Details sent to your email.</div>
+
+    <!-- FAQ SECTION -->
+    <section class="faq">
+      <h3>FAQs</h3>
+      <ul>
+        <li><b>Who is this for?</b> Students, job seekers, professionals.</li>
+        <li><b>Do I need experience?</b> No. Beginner-friendly and interactive.</li>
+        <li><b>Will I get a certificate?</b> Yes, participation certificates and resources provided.</li>
+        <li><b>How do I join the community?</b> Link shared at the event or follow on Instagram/WhatsApp.</li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      VDS Academy &copy; 2025 • Follow us: <a href="#">Instagram</a> | <a href="#">LinkedIn</a> <br>
+      Contact: vdscreativespace@gmail.com / WhatsApp: +91-8825767852
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
